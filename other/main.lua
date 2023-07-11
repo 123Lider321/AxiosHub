@@ -15,7 +15,7 @@ end)
 warn('[AxiosHub System]: This game is running without anti-cheat & autobypass!')
 
 
-loadstring(game:HttpGet('https://pastebin.com/raw/TcDFLc8x'))() --> AntiCheat
+loadstring(game:HttpGet('https://raw.githubusercontent.com/123Lider321/AxiosHub/main/other/anti-cheat.lua?token=GHSAT0AAAAAACEPXP5NSHJWP7AZCTK3YFQMZFMU7SQ'))() --> AntiCheat
 
 
 local Players = game:GetService("Players")
@@ -56,13 +56,13 @@ local Window = ArrayField:CreateWindow({
        GrabKeyFromSite = true,
        Actions = {
              [1] = {
-                 Text = '--> Click here to copy the key link <--',
+                 Text = '--> The key is "." <--',
                  OnPress = function()
                      setclipboard("https://pastebin.com/raw/BrdBaVZV")
                  end,
                  }
              },
-       Key = {"https://pastebin.com/raw/BrdBaVZV", "."}
+       Key = {"."}
     }
 })
 ArrayField:LoadConfiguration()
@@ -140,7 +140,7 @@ local Button = PlayersTab:CreateButton({
     SectionParent = LocalPlayersSection,
     Interact = 'Execute',
     Callback = function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/meqtGQnw'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/123Lider321/AxiosHub/main/Scripts/fly-script.lua?token=GHSAT0AAAAAACEPXP5MF5Q3SYYOCGLFPKGSZFMVJHA'))()
     end,
 })
 local Button = PlayersTab:CreateButton({
@@ -562,7 +562,7 @@ local Button = HubsGuisTab:CreateButton({
     SectionParent = HubsSection,
     Interact = 'Execute',
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/km6ZaaD4"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/123Lider321/AxiosHub/main/Scripts/feaudio.lua?token=GHSAT0AAAAAACEPXP5MBYZSXLMOALVXKXTWZFMVPTQ"))()
     end,
 })
 local Button = HubsGuisTab:CreateButton({
@@ -570,7 +570,7 @@ local Button = HubsGuisTab:CreateButton({
     SectionParent = HubsSection,
     Interact = 'Execute',
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/km6ZaaD4"))()
+        loadstring(game:HttpGet(""))()
     end,
 })
 local Button = HubsGuisTab:CreateButton({
@@ -657,7 +657,7 @@ local Button = HubsGuisTab:CreateButton({
     Interact = 'Execute',
     SectionParent = WorkinallgamesSection,
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/jPjXgJCp"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/123Lider321/AxiosHub/main/Scripts/rice-antiafk?token=GHSAT0AAAAAACEPXP5NSL36MWWOVVPSQO3AZFMVK6A"))()
     end,
 })
 local Button = HubsGuisTab:CreateButton({
@@ -687,7 +687,7 @@ local Button = HubsGuisTab:CreateButton({
     Interact = 'Execute',
     SectionParent = WorkinallgamesSection,
     Callback = function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/mRSKsdjy'))()
+        loadstring(game:HttpGet(''))()
     end,
 })
 local Button = HubsGuisTab:CreateButton({
@@ -695,7 +695,7 @@ local Button = HubsGuisTab:CreateButton({
     Interact = 'Execute',
     SectionParent = WorkinallgamesSection,
     Callback = function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/1TdCNqrZ'))()
+        loadstring(game:HttpGet(''))()
     end,
 })
 
@@ -730,7 +730,7 @@ local Button = HubsGuisTab:CreateButton({
     Interact = 'Execute',
     SectionParent = UtilityHubsSection,
     Callback = function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/BgJiUmgK'))()
+        loadstring(game:HttpGet(''))()
     end,
 })
 
@@ -759,7 +759,7 @@ local Button = HubsGuisTab:CreateButton({
   Callback = function()
     task.wait()
 
-		loadstring(game:HttpGet("https://pastebin.com/raw/DJZa4uKy"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/123Lider321/AxiosHub/main/Scripts/simplespy.lua?token=GHSAT0AAAAAACEPXP5M5R4UREHBQVV6ORRAZFMVRFA"))()
   end,
 })
 
