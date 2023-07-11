@@ -1,6 +1,6 @@
 local RobloxGame = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
 
-loadstring(game:HttpGet('https://pastebin.com/raw/TcDFLc8x'))()--> AntiCheat
+loadstring(game:HttpGet('https://raw.githubusercontent.com/123Lider321/AxiosHub/main/other/anti-cheat.lua'))() --> AntiCheat loadstring.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -58,7 +58,7 @@ local Window = ArrayField:CreateWindow({
                  end,
                  }
              },
-       Key = {"https://pastebin.com/raw/BrdBaVZV", "."}
+       Key = {"."}
     }
 })
 ArrayField:Notify({
@@ -70,7 +70,7 @@ ArrayField:Notify({
         Yes = {
             Name = "Yes",
             Callback = function()
-            local secondUrl = "https://pastebin.com/raw/TPeQejAC"--> Main AxiosHub script
+            local secondUrl = "https://raw.githubusercontent.com/123Lider321/AxiosHub/main/other/main.lua"--> Main AxiosHub loadstring.
                 		loadstring(game:HttpGet(secondUrl, true))()
         end
         },
